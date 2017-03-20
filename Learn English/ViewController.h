@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HMSegmentedControl.h"
+#import "UIColor+BFPaperColors.h"
+#import "DetailViewController.h"
+#import "MXUINavigationController.h"
 
-@interface ViewController : UIViewController
 
 
+@interface ViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+- (void)segmentedControlChangedValue:(HMSegmentedControl *)segmentedControl;
 @end
 

@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIColor+BFPaperColors.h"
+#import "MXLibraryAPI.h"
+#import "MXSpeech.h"
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
